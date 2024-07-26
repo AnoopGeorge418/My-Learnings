@@ -1,0 +1,17 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "im learning npm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anoop George",
+  "license": "ISC",
+  "dependencies": {
+    "marvel-characters": "^1.0.3",
+    "sillyname": "^0.1.0",
+    "superheros": "^1.0.0"
+  }
+}
