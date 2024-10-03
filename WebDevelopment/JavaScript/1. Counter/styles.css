@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.result{
+    position: absolute;
+    padding: 3rem;
+    margin-left: 0rem;
+    margin-bottom: 14rem;
+    color: white;
+    font-size: 5rem;
+}
