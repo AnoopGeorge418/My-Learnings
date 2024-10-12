@@ -1,0 +1,12 @@
+name: my_env         # Name of the environment
+channels:            # List of conda channels to search for packages
+  - defaults
+dependencies:        # List of dependencies for the environment
+  - python=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - pip               # If you want to use pip packages
+  - pip:
+      - requests      # Pip packages
+      - flask

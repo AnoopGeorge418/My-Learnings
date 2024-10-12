@@ -31,7 +31,7 @@
    3.  The `most important` files are `models.py, admin.py, and views.py`
    4.  We use `models.py` to define the data we want to manage in our app. 
    5.  admin.py - ``
-   6.  views.py - ``
+   6.  views.py - `A view function takes in information from a request, prepares the data needed to generate a page, and then sends the data back to the browser. Itoften does this by using a template that defines what the page will look like.`
 
 5. Defining Models:
       1. write` necessary code to store the data to database`
@@ -71,4 +71,20 @@
 14. Django shell - helps for testing project
     1.  python manage.py shell
     2.  ex: - from learning_logs.models import Topic (nextline)Topic.objects.all() it will displays entrys you added
-    3.  
+    
+15. Creating Home Page:
+    1.  Defining url
+        1.  Mapping url(urls.py and craete urls.py in app and urls)
+    2.  writing views
+    3.  writing templates
+
+16. Accounts:
+    1. `python manage.py strtapp accounts`
+    2. add to settings.py
+    3. add url in url patterns
+
+17. Styling and deploying
+    1.  pip install django-bootstrap5
+    2.  add it in settings apps django_bootstrap5
+    3.  style all pages
+    4.  Deploy in platform.sh
